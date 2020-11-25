@@ -5,6 +5,7 @@ Tested in Ubuntu 20.04 LTS with AWUS1900 (RTL8814AU). Injection working, full dr
 I suggest you use the DKMS install type and reboot. 
 
 This repo was made to fill out the space left by the split of these two : https://github.com/aircrack-ng/rtl8812au & https://github.com/aircrack-ng/rtl8814au
+
 None of which provide a RTL8814AU driver with working injection.
 
 ## RTL8812AU/21AU and RTL8814AU drivers
