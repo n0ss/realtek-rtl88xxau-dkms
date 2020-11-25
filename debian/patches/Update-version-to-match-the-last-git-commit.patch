@@ -1,0 +1,21 @@
+From: Sophie Brun <sophie@offensive-security.com>
+Date: Fri, 29 May 2020 10:04:53 +0200
+Subject: Update version to match the last git commit
+
+Forwarded: not-needed
+
+---
+ dkms.conf | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/dkms.conf b/dkms.conf
+index 4c3c3b7..24773ba 100644
+--- a/dkms.conf
++++ b/dkms.conf
+@@ -1,5 +1,5 @@
+ PACKAGE_NAME="realtek-rtl88xxau"
+-PACKAGE_VERSION="5.6.4.2~20200816"
++PACKAGE_VERSION="5.6.4.2~20200916"
+ CLEAN="'make' clean"
+ BUILT_MODULE_NAME[0]=88XXau
+ PROCS_NUM=`nproc`

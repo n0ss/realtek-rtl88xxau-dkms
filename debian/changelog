@@ -1,0 +1,139 @@
+realtek-rtl88xxau-dkms (5.6.4.2~git20200916-0kali1) kali-dev; urgency=medium
+
+  * New upstream version 5.6.4.2~git20200916
+  * Refresh patches
+
+ -- Sophie Brun <sophie@offensive-security.com>  Wed, 16 Sep 2020 10:09:24 +0200
+
+realtek-rtl88xxau-dkms (5.6.4.2~20200529-0kali1) kali-dev; urgency=medium
+
+  * New upstream version 5.6.4.2~20200529
+
+ -- Sophie Brun <sophie@offensive-security.com>  Fri, 29 May 2020 10:05:34 +0200
+
+realtek-rtl88xxau-dkms (5.6.4.2~20200313-0kali1) kali-dev; urgency=medium
+
+  * New upstream version 5.6.4.2~20200313
+
+ -- Sophie Brun <sophie@offensive-security.com>  Thu, 14 May 2020 11:44:39 +0200
+
+realtek-rtl88xxau-dkms (5.3.4~20200115-0kali1) kali-dev; urgency=medium
+
+  * New upstream version 5.3.4~20200115
+
+ -- Sophie Brun <sophie@offensive-security.com>  Mon, 20 Jan 2020 11:50:46 +0100
+
+realtek-rtl88xxau-dkms (5.3.4~20191031-0kali1) kali-dev; urgency=medium
+
+  [ Raphaël Hertzog ]
+  * Configure git-buildpackage for Kali
+  * Update URL in GitLab's CI configuration file
+
+  [ Sophie Brun ]
+  * New upstream version 5.3.4~20191031
+
+ -- Sophie Brun <sophie@offensive-security.com>  Tue, 17 Dec 2019 12:02:46 +0100
+
+realtek-rtl88xxau-dkms (5.2.20.2~20190617-0kali1) kali-dev; urgency=medium
+
+  [ Raphaël Hertzog ]
+  * Update Vcs-* fields for the move to gitlab.com
+  * Add GitLab's CI configuration file
+
+  [ Sophie Brun ]
+  * Add debian/gbp.conf
+  * New upstream version 5.2.20.2~20190617
+  * Update debian/copyright
+  * Add a patch to change snapshot version
+
+ -- Sophie Brun <sophie@offensive-security.com>  Fri, 16 Aug 2019 10:17:10 +0200
+
+realtek-rtl88xxau-dkms (5.2.20.2~20190210-0kali1) kali-dev; urgency=medium
+
+  * Import new snapshot from git (issue 5283)
+
+ -- Sophie Brun <sophie@offensive-security.com>  Fri, 01 Mar 2019 10:06:05 +0100
+
+realtek-rtl88xxau-dkms (5.2.20.2~20181106-0kali1) kali-dev; urgency=medium
+
+  * Import new snapshot from git (issue 5144)
+
+ -- Sophie Brun <sophie@offensive-security.com>  Fri, 07 Dec 2018 11:51:58 +0100
+
+realtek-rtl88xxau-dkms (5.2.20.2~20180812-0kali1) kali-dev; urgency=medium
+
+  * Import new snapshot from git (see 4891)
+    - Update phydm to improve TP stability
+    - Support WiFi-HAL for Android 8
+    - Update PHYDM setting
+    - Update FW to v52.10
+    - Correct DFS master function
+    - Fixed WPA2 vulnerability - key reinstallation attacks(KRACKs)
+    - Remove test code
+    - Fix crash for BF function
+    - Fix wrong memory accesse
+    - Fix encrypt broadcast packet fail
+    - Fix crash for TDLS
+    - Update PHYDM setting
+    - Support PNO
+    - Fix WOW issue
+    - Fix efuse issue
+    - Sync channel plan document
+    - Fix DFS issue
+    - Support NAPI & GRO
+    - Enable Power by rate
+    - Fix MP power tracking issue
+    - Fix potential memory out of range
+    - Support CE-RED. 2G: ETSI v2.1.1 / 5G: ETSI v2.1.0
+
+ -- Sophie Brun <sophie@freexian.com>  Tue, 21 Aug 2018 14:57:36 +0200
+
+realtek-rtl88xxau-dkms (5.1.5~20180513-0kali1) kali-dev; urgency=medium
+
+  * Import new snapshot from git (see bug 4764)
+    - Fix an monitor/injection (FCS) issue on 8812 chipset
+    - Fix Odroid C2 (arm64) support
+    - Fix power saving breaking monitor mode
+    - ARM RPI fix added
+    - Fixed building on older kernels
+    - New USB VID/PIDs added
+
+ -- Sophie Brun <sophie@freexian.com>  Mon, 14 May 2018 09:28:57 +0200
+
+realtek-rtl88xxau-dkms (5.1.5~20180125-0kali1) kali-dev; urgency=medium
+
+  * Import new snapshot form git (see bug 4510)
+
+ -- Sophie Brun <sophie@freexian.com>  Fri, 02 Feb 2018 10:38:10 +0100
+
+realtek-rtl88xxau-dkms (5.1.5~20180108-0kali1) kali-dev; urgency=medium
+
+  * Import new snapshot from git (see bug 4460)
+
+ -- Sophie Brun <sophie@freexian.com>  Tue, 09 Jan 2018 12:03:49 +0100
+
+realtek-rtl88xxau-dkms (5.1.5~20171206-0kali1) kali-dev; urgency=medium
+
+  * Import new snapshot from git (see bug 4422)
+
+ -- Sophie Brun <sophie@freexian.com>  Tue, 12 Dec 2017 09:45:59 +0100
+
+realtek-rtl88xxau-dkms (5.1.5~20170828-0kali1) kali-dev; urgency=medium
+
+  * Import new upstream branch (see bug 4198)
+
+ -- Sophie Brun <sophie@freexian.com>  Mon, 28 Aug 2017 16:20:07 +0200
+
+realtek-rtl88xxau-dkms (4.3.21~20170824-0kali1) kali-dev; urgency=medium
+
+  * Change upstream repo
+  * Import a snapshot
+
+ -- Sophie Brun <sophie@freexian.com>  Thu, 24 Aug 2017 09:49:19 +0200
+
+realtek-rtl88xxau-dkms (4.3.21~20170330-0kali1) kali-dev; urgency=low
+
+  * Initial release
+
+ -- Sophie Brun <sophie@freexian.com>  Tue, 04 Apr 2017 11:13:04 +0200
+

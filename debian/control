@@ -1,0 +1,19 @@
+Source: realtek-rtl88xxau-dkms
+Section: contrib/kernel
+Priority: optional
+Maintainer: Kali Developers <devel@kali.org>
+Uploaders: Sophie Brun <sophie@offensive-security.com>
+Build-Depends: debhelper-compat (= 12), dkms, dh-exec
+Standards-Version: 4.5.0
+Homepage: https://github.com/aircrack-ng/rtl8812au
+Vcs-Git: https://gitlab.com/kalilinux/packages/realtek-rtl88xxau-dkms.git
+Vcs-Browser: https://gitlab.com/kalilinux/packages/realtek-rtl88xxau-dkms
+
+
+Package: realtek-rtl88xxau-dkms
+Architecture: all
+Depends: dkms (>= 1.95), ${misc:Depends}
+Description: Realtek RTL88xxAU driver in DKMS format
+ This package provides the source code for RTL8812AU/21AU and RTL8814AU Linux
+ driver (with monitor mode and frame injection) to be build with dkms. Kernel
+ sources or headers are required to compile this module.

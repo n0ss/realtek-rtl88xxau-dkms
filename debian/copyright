@@ -1,0 +1,36 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: rtl8812au
+Source: https://github.com/aircrack-ng/rtl8812au
+Comment: dkms package built during installation
+
+Files: *
+Copyright: 2007-2017 Realtek Corporation
+License: GPL-2
+
+Files: os_dep/linux/rhashtable.*
+Copyright: 2015 Herbert Xu <herbert@gondor.apana.org.au>
+           2014-2015 Thomas Graf <tgraf@suug.ch>
+	   2008-2014 Patrick McHardy <kaber@trash.net>
+License: GPL-2
+
+Files: debian/*
+Copyright: 2017-2019 Offensive Security
+License: GPL-2
+
+License: GPL-2
+ This program is free software; you can redistribute it and/or modify it
+ under the terms of version 2 of the GNU General Public License as
+ published by the Free Software Foundation.
+ .
+ This program is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License
+ for more details.
+ .
+ You should have received a copy of the GNU General Public License along
+ with this program; if not, write to the Free Software Foundation, Inc., 51
+ Franklin Street, Fifth Floor, Boston, MA 02110, USA
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 2 can be found in "/usr/share/common-licenses/GPL-2"
+

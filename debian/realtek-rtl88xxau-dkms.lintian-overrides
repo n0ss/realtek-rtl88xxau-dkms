@@ -1,0 +1,2 @@
+#we export the variable provided by /usr/share/dpkg/pkg-info.mk
+realtek-rtl88xxau-dkms source: dh-exec-subst-unknown-variable debian/realtek-rtl88xxau-dkms.install DEB_VERSION_UPSTREAM
